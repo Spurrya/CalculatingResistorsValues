@@ -1,9 +1,13 @@
 clc;
 clear all;
 
+%Resistance at 10 degrees
 rt10 = 140.065;
+
+%Resistance at 50 degrees
 rt50 = 23.46998;
 
+%All the available resistor values
 resistors = [10,11,12,13,14,15,16,17,18,20,22,24,27,30,33,36,39,43,51,56,62,68,75,82,91,100,110,120,130,150,160,180,200,220,240,270,300,330,360,390,430,470,510,560,620,680,750,820,910,1000];
 newr = resistors;
 
